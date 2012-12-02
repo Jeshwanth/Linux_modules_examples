@@ -13,7 +13,7 @@
 #define MAJOR_NUM 200
 #define DEVICE_NAME "cdev"
 
-// Store and Show functions......
+// Store and Show functions.....
 static ssize_t enable_store(struct class *cls, struct class_attribute *attr, const char *buf, size_t count);
 static ssize_t enable_show(struct class *cls, struct class_attribute *attr, char *buf);
 
